@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+yolo_venv/
+venv/
+
+# YOLO runs & outputs
+runs/
+outputs/
+weights/*.pt
+
+# Dataset (optional – keep data.yaml if you want)
+data/helmet/train/
+data/helmet/valid/
+data/helmet/test/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['helmet']
+
+roboflow:
+  workspace: amanppedetection
+  project: helmet-evxi3-achsr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amanppedetection/helmet-evxi3-achsr/dataset/1
